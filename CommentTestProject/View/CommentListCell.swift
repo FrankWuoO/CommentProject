@@ -30,7 +30,6 @@ class CommentListCell: UITableViewCell {
         listTableView.register(UINib(nibName: "CommentCell", bundle: nil), forCellReuseIdentifier: "CommentCell")
         listTableView.register(UINib(nibName: "ReplyCell", bundle: nil), forCellReuseIdentifier: "ReplyCell")
         // Initialization code
-        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
